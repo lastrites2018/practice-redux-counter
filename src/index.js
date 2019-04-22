@@ -9,7 +9,10 @@ import reducers from './reducers';
 import { Provider } from 'react-redux';
 
 // store 생성
-const store = createStore(reducers);
+const store = createStore(
+  reducers,
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+);
 // redux part end
 
 ReactDOM.render(

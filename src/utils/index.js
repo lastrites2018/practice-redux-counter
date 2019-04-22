@@ -1,5 +1,4 @@
 export function getRandomColor() {
-  console.log('실행?');
   const colors = [
     '#495057',
     '#f03e3e',

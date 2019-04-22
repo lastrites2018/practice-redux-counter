@@ -39,7 +39,7 @@ Counter.propTypes = {
 Counter.defaultProps = {
   index: 0,
   number: 0,
-  color: 'blue',
+  color: 'black',
   onIncrement: () => console.warn('onIncrement not defined'),
   onDecrement: () => console.warn('onDecrement not defined'),
   onSetColor: () => console.warn('onSetColor not defined')

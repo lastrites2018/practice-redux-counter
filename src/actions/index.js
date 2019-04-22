@@ -19,7 +19,15 @@ export const decrement = index => ({
   index
 });
 
-export const setColor = (index, color) => ({
+// 주의 : destruction 실수
+
+// export const setColor = (index, color) => ({ // 이렇게 해서 에러 발생
+//   type: types.SET_COLOR,
+//   index,
+//   color
+// });
+
+export const setColor = ({ index, color }) => ({
   type: types.SET_COLOR,
   index,
   color

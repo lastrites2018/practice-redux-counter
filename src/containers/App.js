@@ -20,7 +20,7 @@ class App extends Component {
 
 const mapToDispatch = dispatch => ({
   onCreate: () => dispatch(actions.create(getRandomColor())),
-  onRemove: () => dispatch(actions.remove())
+  onRemove: index => dispatch(actions.remove(index))
 });
 
 export default connect(

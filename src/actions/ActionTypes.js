@@ -1,7 +1,7 @@
 /*
 Action 종류 선언, 앞에 export를 붙여서 
 나중에 한번에 불러올 수 있음
-import * as types from './ActionTypes'로 할 숭 씨음
+import * as types from './ActionTypes'로 할 수 있다
 */
 
 export const CREATE = 'CREATE';

@@ -1,5 +1,7 @@
 import * as types from './ActionTypes';
 
+// declare action creators for making action object
+
 export const create = color => ({
   type: types.CREATE,
   color
